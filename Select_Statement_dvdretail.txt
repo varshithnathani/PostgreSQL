@@ -1,0 +1,19 @@
+/*
+select * from actor;
+*/
+
+/*
+select first_name from actor;
+*/
+
+/*
+select first_name, last_name from actor;
+*/
+
+/*
+we want to see the payment data of the existing customers 
+Challenge: use SELECT statement to grab the customer_id of every customer the payment date and the amount
+*/
+/*ANS: */
+
+select customer_id, amount, payment_date from payment;
